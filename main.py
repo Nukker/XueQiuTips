@@ -41,9 +41,9 @@ urllib2.install_opener(opener)
 headers = {"User-Agent" : "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.102 Safari/537.36"}   #伪装成浏览器
 data = {
 	"areacode" : "86",
-	"password" : "5124694000a",
+	"password" : "XXX",
 	"remember_me" : "on",
-	"telephone" : "18566699624"
+	"telephone" : "185XXX"
 	}
 post_data = urllib.urlencode(data)
 request = urllib2.Request(login_url,post_data,headers)
